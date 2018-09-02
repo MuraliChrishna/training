@@ -5,6 +5,15 @@ type="text"
 class="form-control"
 ( input )= "onUpdateServerName($event)"> -->
 <input
+type =" text"
+class ="form-control"
+[(ngModel)]="userName">
+<button class="btn btn-primary"
+(click)="onUserName()"> Print userName</button>
+<button class="btn btn-primary"
+[disabled] ="!emptyString" > Add Username</button>
+<p>{{ usernameStatus }}</p>
+<input
 type="text"
 class="form-control"
 [(ngModel)]="serverName">
