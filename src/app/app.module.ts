@@ -14,12 +14,12 @@ import { FormsModule } from '@angular/forms';
     ServerComponent,
     ServersComponent,
     WarningAlertComponent,
-    SuccessAlertComponent,
-    FormsModule
+    SuccessAlertComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
