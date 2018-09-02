@@ -19,7 +19,7 @@ serverName = 'TestServer';
   }
 
   onCreateServer() {
-this.sercerCreationStatus = 'server was Created';
+this.sercerCreationStatus = 'server was Created Name is '+ this.serverName;
   }
 onUpdateServerName(event: any) {
 this.serverName = (<HTMLInputElement>event.target).value;
